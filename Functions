@@ -1,0 +1,36 @@
+#def with paramaters
+def greet(lang):
+    if lang == 'es':
+        print('Hola')
+    elif lang == 'fr':
+        print('Bonjour')
+    else:
+        print('Hello')
+greet('fn')
+greet('fr')
+greet('es')
+
+#def with return values
+def wish():
+    return 'Hello'
+print(wish(),'Glenn')
+print(wish(),'Sally')
+
+#def with return value
+def greet(lang):
+    if lang == 'en':
+        return 'Hello'
+    elif lang == 'Hn':
+        return 'salam malakum'
+    else:
+        return 'Namestey'
+print(greet('en'),'Rohit')
+print(greet('Hn'),'revanth')
+print(greet('Hm'),'Vinay')
+
+#Multiple parameters
+def adding_numbers(a,b):
+    added = a + b
+    return added
+x = adding_numbers(9,1)
+print(x)
